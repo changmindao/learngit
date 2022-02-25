@@ -22,3 +22,5 @@ git reflog
 get reset HEAD readme.txt
 git restore readme.txt
 git checkout -- readme.txt
+git rm test.txt
+git commit -m "remove test.txt"
