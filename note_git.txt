@@ -19,6 +19,6 @@ git log --pretty=oneline
 git reset --hard HEAD^
 git reset --hard 0b95f250  # commit_id
 git reflog
-
+get reset HEAD readme.txt
 git restore readme.txt
 git checkout -- readme.txt
