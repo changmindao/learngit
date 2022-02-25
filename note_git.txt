@@ -34,18 +34,12 @@ Enter passphrase (empty for no passphrase):
 Enter same passphrase again: 
 Your identification has been saved in /home/pengzhang/.ssh/id_rsa
 Your public key has been saved in /home/pengzhang/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:rxKlBxSjyB98HUZNaoDHnp4DI44GWzgSOpZNoLA9CdM zhangxpeng@gmail.com
-The key's randomart image is:
-+---[RSA 3072]----+
-|+o.  o+o+o.      |
-|+*E=..+= o.      |
-|+oX ++..+        |
-|Boo+oo+..        |
-|+B ..+ =S        |
-|o..   * ..       |
-|.      +  .      |
-|      .  .       |
-|       ..        |
-+----[SHA256]-----+
+.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDT7Jk4NaQnDT5bqdQC7W5OBeB8hpgkQVDALh65uAAhRK8vywOAMpfSgnD/h9tsytu9TtHryNR8jrkA6A4YDu+wSuiJSAFDk97Kp9RfRSopHEyNqi/QPhj0H8xByS5bOWwwhkkSlrEFyNtOqds4Vq6oMPCMKbfFUAOMhlR1j9Up5l+CKUp/YyWkDJOLskQxctpKYACgFOWwDB3aWLvUUqvGbjMxlMKePfG4FGWTMe3sV4PG/1yYNu/OFe8VyIWj6+xVeIWOpPr2MMmEzXOKBuZmV4A5n1NBeHdbLGf43arWWHJi7X/23IAuFn7S5eilRaueOqfmKhCFRVi/asGtHs98slx2YJ099Tlb4Yp0vmWiDj3pCgG+10Qn+aLeEpb5TqHJ8v1nKCVcYGfvq4ekrliCrYGmseG+6163/wpTdCI4frXZTjGAj1lP3DLwuI/FXnPEI5KhWpPEDb+gxIPXivuj9ypLyDjr2igxoLivcUmrG9PA6mlHhOEiqZcwQ20v0Q0= zhangxpeng@gmail.com
 
+git remote add origin git@github.com:changmindao/learngit.git
+git push -u origin master
+
+git remote add origin https://github.com/changmindao/learngit.git
+git branch -M main
+git push -u origin main
