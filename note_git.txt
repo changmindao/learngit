@@ -24,3 +24,28 @@ git restore readme.txt
 git checkout -- readme.txt
 git rm test.txt
 git commit -m "remove test.txt"
+
+ssh-keygen -t rsa -C "zhangxpeng@gmail.com"
+
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/pengzhang/.ssh/id_rsa): 
+Created directory '/home/pengzhang/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/pengzhang/.ssh/id_rsa
+Your public key has been saved in /home/pengzhang/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:rxKlBxSjyB98HUZNaoDHnp4DI44GWzgSOpZNoLA9CdM zhangxpeng@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|+o.  o+o+o.      |
+|+*E=..+= o.      |
+|+oX ++..+        |
+|Boo+oo+..        |
+|+B ..+ =S        |
+|o..   * ..       |
+|.      +  .      |
+|      .  .       |
+|       ..        |
++----[SHA256]-----+
+
