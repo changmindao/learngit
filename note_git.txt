@@ -67,3 +67,6 @@ git branch
 
 git switch dev
 git switch master
+
+git merge dev
+git branch -d dev
