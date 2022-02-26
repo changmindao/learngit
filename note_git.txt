@@ -71,3 +71,5 @@ git switch master
 
 git merge dev
 git branch -d dev
+
+git log --graph --pretty=oneline --abbrev-commit
