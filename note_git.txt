@@ -75,3 +75,9 @@ git branch -d dev
 git log --graph --pretty=oneline --abbrev-commit
 git merge --no-ff -m "merge with no fast forward"  dev
 git merge --no-ff -m "merge bug fix 101"  issue-001
+git stash
+git stach list
+git stash apply
+git stash drop 
+git stash pop
+git cherry-pick 673294f
