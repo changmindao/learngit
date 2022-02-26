@@ -81,3 +81,4 @@ git stash apply
 git stash drop 
 git stash pop
 git cherry-pick 673294f
+git branch -d issue-001
