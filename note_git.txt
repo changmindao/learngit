@@ -65,3 +65,5 @@ git checkout dev
 git checkout -b dev
 git branch
 
+git switch dev
+git switch master
