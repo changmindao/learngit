@@ -63,6 +63,7 @@ git clone git@github.com:changmindao/gitskills.git
 git branch dev
 git checkout dev
 git checkout -b dev
+git switch -c dev
 git branch
 
 git switch dev
